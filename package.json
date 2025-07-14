@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@ui5/cli": "^4.0.19"
+    "@ui5/cli": "^4.0.19",
+    "ui5-middleware-simpleproxy": "^3.4.3"
   }
 }
