@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "ui5 serve -o index.html"
+    "start": "ui5 serve -o index.html",
+    "dev": "ui5 serve -o test/mockServer.html"
   },
   "keywords": [],
   "author": "",
