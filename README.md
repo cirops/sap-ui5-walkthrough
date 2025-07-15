@@ -1,0 +1,1 @@
+Debugging tool: Press Ctrl+Alt+Shift+s to open UI5 Diagnostics.
