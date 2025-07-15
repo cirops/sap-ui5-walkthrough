@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "ui5 serve -o index.html",
-    "dev": "ui5 serve -o test/mockServer.html"
+    "dev": "ui5 serve -o test/mockServer.html",
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "@ui5/cli": "^4.0.19",
+    "local-web-server": "^5.4.0",
     "ui5-middleware-simpleproxy": "^3.4.3"
   }
 }
